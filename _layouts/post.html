@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="post col-sm-12 col-md-12 col-lg-12" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <h2 class="post--title" itemprop="name headline">{{ page.title }}</h2>
+    <h4 class="post--time">
+      <i class="icon-clock" style="float: right;margin-left: 5px;vertical-align: middle;"></i>
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date_date | date: "%b %-d, %Y" }}
+      </time>
+    </h4>
+  </header>
+
+  <div class="post--content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+</article>

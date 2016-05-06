@@ -1,0 +1,176 @@
+// index PAGE:
+// =========
+
+html {
+	font-family: $Mitra-regular, Lato, Droid Sans, Helvetica, sans-serif;
+	direction: $direction;
+	line-height: $line-height;
+	text-rendering: optimizeLegibility;
+	@include font-smoothing();
+	letter-spacing: -.025rem;
+	word-spacing: -.05rem;
+}
+body {
+	background: $c-white;
+	background-size: cover;
+	color: $c-dark;
+}
+* {
+	box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: $c-dark;
+    &:hover {
+    	color: $color-hover;
+    }
+}
+::selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+picture {
+	display: block;
+	line-height: 0;
+}
+img, iframe {
+	max-width: 100%;
+	margin: 0 auto;
+}
+ul {
+	list-style-type: none;
+	li {
+		&::before, &::after{
+			content: '';
+			display: inline-block;
+		}
+	}
+}
+
+.fixed {
+	position: fixed;
+}
+.container {
+	display: block;
+	width: 30rem;
+	max-width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+header {
+	padding: 2em 0 0;
+
+	.row {
+		-webkit-justify-content: center;
+	  -ms-flex-pack: center;
+	  -webkit-box-pack: center;
+	  justify-content: center;
+	  text-align: center;
+	}
+}
+.header--logo {
+	width: 10em;
+	height: 10em;
+	background: url('/dist/img/logo.svg');
+	background-size: 100%;
+}
+.post p {
+	font-family: $Nassim-regular;
+	font-size: 106.66667%;
+	line-height: $line-height + 0.3;
+	color: darken($c-dark, 10%);
+}
+.post p a {
+	border-bottom: 1px dotted $c-red;
+}
+.post--break {
+	width: 0.5em;
+	height: 0.5em;
+	margin-bottom: 2em;
+	background: $c-dark;
+	@include border-radius(100%);
+	border: 0;
+
+	&::before {
+		content: '';
+		display: flex;
+		position: relative;
+		width: 0.5em;
+		height: 0.5em;
+		background: $c-dark;
+		@include border-radius(100%);
+		border: 0;
+		top: 0px;
+		left: -15px;
+	}
+	&::after {
+		content: '';
+		position: relative;
+		display: flex;
+		width: 0.5em;
+		height: 0.5em;
+		background: $c-dark;
+		@include border-radius(100%);
+		border: 0;
+		top: -8px;
+		right: -15px;
+	}
+}
+.site--title {
+	font-family: $Mitra-bold;
+}
+.socials {
+	font-size: $line-height;
+	i {
+		margin:  0 5px;
+	}
+}
+.header--break {
+	width: 10em;
+	height: 0.05em;
+	border: 0;
+	background: lighten($c-dark, 30%);
+	margin-top: 1.5em;
+  margin-bottom: 3.5em;
+}
+.small--links {
+	display: none !important;
+}
+.post--title {
+	font-size: 2.118em;
+	font-family: $Mitra-bold;
+
+	& a:hover {
+		color: lighten($c-dark, 10%);
+	}
+}
+.post--time {
+	font-family: $Mitra-bold;
+	font-size: 1.218em;
+	color: lighten($c-dark, 10%);
+}
+.post--more a{
+	font-size: 1.318em;
+	color: $c-red;
+	letter-spacing: 0.03rem;
+	//font-family: $Nassim-regular;
+
+	&:hover {
+		color: lighten($c-red, 10%);
+	}
+}
+footer {
+	margin-top: 2em;
+	padding: 1em 0;
+	background: $c-dark;
+	color: lighten($c-white, 20%);
+	a {
+		color: lighten($c-white, 20%);
+		border-bottom: 1px dotted $c-white;
+	}
+	p {
+		font-family: $Nassim-regular;
+	}
+}

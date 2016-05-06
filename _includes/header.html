@@ -1,0 +1,45 @@
+  <header class="col-sm-12 col-md-12 col-lg-12">
+    <div class="row">
+      <section class="col-sm-12 col-md-12 col-lg-12">
+        <div class="row small--logo">
+          <a class="header--logo" href="{{ site.baseurl }}/"></a>
+        </div>
+        <div class="row small--title">
+          <div class="col-xs-12">
+            <h1 class="site--title">{{ site.title }}</h1>
+          </div>
+        </div>
+        <div class="row middle-xs small--links">
+          {% if page.title %}
+            <a href="{{ site.baseurl }}/">
+              <span>Back</span>
+              <i class="icon-small-left"></i>
+            </a>
+          {% else %}
+          {% endif %}
+        </div>
+      </section>
+    </div>
+
+    <nav class="row socials">
+      <div class="col-xs-12 center-xs">
+        <a class="email--acc" href="mailto:{{ site.email }}">
+          <i class="icon-mail"></i>
+        </a>
+        <a class="twitter--acc" href="https://twitter.com/@{{ site.twitter_username }}">
+          <i class="icon-twitter"></i>
+        </a>
+        <a class="instagram--acc" href="https://instagram.com/{{ site.instagram_username }}">
+          <i class="icon-instagram"></i>
+        <a class="github--acc" href="https://github.com/{{ site.github_username }}">
+          <i class="icon-github"></i>
+        </a>
+        <a class="codepen--acc" href="https://codepen.com/{{ site.codepen_username }}">
+          <i class="icon-codepen"></i>
+        </a>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <hr class="header--break"></hr>

@@ -1,0 +1,26 @@
+{
+  "name": "amir",
+  "version": "1.0.0",
+  "description": "I have a minimal blog.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/iamir/myBlog.git"
+  },
+  "keywords": [
+    "blog",
+    "sass",
+    "css",
+    "html5",
+    "minimal"
+  ],
+  "author": "Amirhossein (@dot_amir)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/iamir/myBlog/issues"
+  },
+  "homepage": "https://gitlab.com/iamir/myBlog#README"
+}

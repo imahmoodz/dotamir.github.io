@@ -1,0 +1,11 @@
+// Fonts:
+// =====
+
+@include font-face($Mitra-regular,'/dist/fonts/#{$Mitra-regular}');
+@include font-face($Mitra-bold,'/dist/fonts/#{$Mitra-bold}');
+@include font-face($Nassim-regular,'/dist/fonts/#{$Nassim-regular}');
+@include font-face($Nassim-bold,'/dist/fonts/#{$Nassim-bold}');
+@include font-icon($font-icon,'/dist/fonts/#{$font-icon}');
+
+// @import url(http://fonts.googleapis.com/css?family=Lato);
+// @import url(http://fonts.googleapis.com/css?family=Droid+Sans);
