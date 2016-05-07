@@ -25,6 +25,10 @@ a {
     	color: $color-hover;
     }
 }
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: -.01rem;
+	font-weight: 300;
+}
 ::selection {
     background: #444;
     color: #fff;
@@ -119,7 +123,9 @@ header {
 	}
 }
 .site--title {
-	font-family: $Mitra-bold;
+		font-size: 2.318em;
+		font-family: $Mitra-bold;
+		font-weight: 300;
 }
 .socials {
 	font-size: $line-height;
@@ -135,12 +141,12 @@ header {
 	margin-top: 1.5em;
   margin-bottom: 3.5em;
 }
-.small--links {
-	display: none !important;
-}
+
 .post--title {
 	font-size: 2.118em;
 	font-family: $Mitra-bold;
+	font-weight: 300;
+	line-height: 1.618em;
 
 	& a:hover {
 		color: lighten($c-dark, 10%);

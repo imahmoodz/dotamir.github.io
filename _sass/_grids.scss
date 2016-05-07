@@ -282,11 +282,6 @@
   .post--title {
     font-size: 1.618em;
   }
-  .post--time {
-    font-size: 1.218em;
-    font-weight: 700;
-    color: lighten($c-dark, 10%);
-  }
   .header--break {
     width: 9.5em;
   	margin-top: -0.8em;
@@ -339,28 +334,6 @@
 
       h1 {
         font-size: 1.555em;
-      }
-    }
-    .small--links {
-      display: block !important;
-      position: absolute;
-      top: 0.9em;
-      left: .4em;
-      width: 4em;
-      height: 2em;
-      text-align: center;
-
-      a {
-        margin-top: 5px;
-        span {
-          float: right;
-          margin-top: 10px;
-        }
-        i {
-          margin-right: -15px;
-          line-height: $line-height;
-          font-size: 1.618em;
-        }
       }
     }
     .header--logo {

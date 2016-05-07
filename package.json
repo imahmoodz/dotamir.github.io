@@ -2,13 +2,9 @@
   "name": "amir",
   "version": "1.0.0",
   "description": "I have a minimal blog.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/iamir/myBlog.git"
+    "url": "git+https://github.com/dotamir/dotamir.github.io.git"
   },
   "keywords": [
     "blog",
@@ -20,7 +16,7 @@
   "author": "Amirhossein (@dot_amir)",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/iamir/myBlog/issues"
+    "url": "https://github.com/dotamir/dotamir.github.io.git"
   },
-  "homepage": "https://gitlab.com/iamir/myBlog#README"
+  "homepage": "https://github.com/dotamir/dotamir.github.io.git"
 }

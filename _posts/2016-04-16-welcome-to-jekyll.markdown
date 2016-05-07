@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "سلام دنیا !"
+title:  "دومین همایش تخصصی طراحی واکنش گرا"
 date:   2016-04-16 17:44:15 +0430
 date_date: "۳۱ فروردین ۱۳۹۵"
 categories: jekyll update
