@@ -1,6 +1,6 @@
 {
   "name": "amir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "I have a minimal blog.",
   "repository": {
     "type": "git",
@@ -16,7 +16,6 @@
   "author": "Amirhossein (@dot_amir)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dotamir/dotamir.github.io.git"
-  },
-  "homepage": "https://github.com/dotamir/dotamir.github.io.git"
+    "url": "https://github.com/dotamir/dotamir.github.io/issues"
+  }
 }
