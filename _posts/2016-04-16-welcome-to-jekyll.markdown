@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "دومین همایش تخصصی طراحی واکنش گرا"
+title:  "دومین پست بلاگ ..."
 date:   2016-04-16 17:44:15 +0430
-date_date: "۳۱ فروردین ۱۳۹۵"
+jalali_date: "۳۱ فروردین ۱۳۹۵"
 categories: jekyll update
 ---
 سلام.
