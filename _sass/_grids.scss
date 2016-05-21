@@ -280,7 +280,7 @@
     width: $breakpoint-small;
   }
   .post--title {
-    font-size: 1.618em;
+    font-size: 1.918em;
   }
   .header--break {
     width: 9.5em;
@@ -290,12 +290,10 @@
   header {
     height: auto;
     .row section {
-      position: fixed;
+      position: relative;
       width: 100%;
-      background: darken($c-white, 5%);
       height: 4em;
-      top: 0;
-      right: 0;
+      top: -2em;
       .row {
         display: inline-flex;
       }
@@ -317,8 +315,8 @@
       flex-wrap: wrap;
       margin-right: -1rem;
       margin-left: -1rem;
+      margin-top: -1em;
       font-size: 1.5em;
-      margin-top: 2em;
       i {
         margin: 0 5px;
       }

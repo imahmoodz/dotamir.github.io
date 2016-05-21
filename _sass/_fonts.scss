@@ -7,5 +7,5 @@
 @include font-face($Nassim-bold,'/dist/fonts/#{$Nassim-bold}');
 @include font-icon($font-icon,'/dist/fonts/#{$font-icon}');
 
-// @import url(http://fonts.googleapis.com/css?family=Lato);
-// @import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);

@@ -7,11 +7,11 @@ html {
 	line-height: $line-height;
 	text-rendering: optimizeLegibility;
 	@include font-smoothing();
-	letter-spacing: -.025rem;
+	line-height: $line-height;
 	word-spacing: -.05rem;
 }
 body {
-	background: $c-white;
+	background: darken($c-white, 2%);
 	background-size: cover;
 	color: $c-dark;
 }
@@ -81,9 +81,9 @@ header {
 	background-size: 100%;
 }
 .post p {
-	font-family: $Nassim-regular;
-	font-size: 106.66667%;
-	line-height: $line-height + 0.3;
+	font-family: $Mitra-regular;
+	font-size: 1.250em;
+	line-height: $line-height;
 	color: darken($c-dark, 10%);
 }
 .post p a {
@@ -177,6 +177,8 @@ footer {
 		border-bottom: 1px dotted $c-white;
 	}
 	p {
-		font-family: $Nassim-regular;
+		font-family: $Mitra-regular, Lato;
+		line-height: 0.800em;
+		font-size: 1.18em;
 	}
 }
