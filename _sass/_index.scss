@@ -8,7 +8,7 @@ html {
 	text-rendering: optimizeLegibility;
 	@include font-smoothing();
 	line-height: $line-height;
-	word-spacing: -.05rem;
+	//word-spacing: -.05rem;
 }
 body {
 	background: darken($c-white, 2%);
@@ -82,16 +82,20 @@ header {
 }
 .post p {
 	font-family: $Mitra-regular;
-	font-size: 1.250em;
-	line-height: $line-height;
-	color: darken($c-dark, 10%);
+	font-size: 1.318rem;
+	line-height: $line-height + 0.2;
+	color: darken($c-dark, 5%);
+	word-spacing: -.05rem;
+	margin-bottom: -1.318rem;
+	//letter-spacing: -.004rem;
 }
 .post p a {
 	border-bottom: 1px dotted $c-red;
 }
 .post--break {
-	width: 0.5em;
-	height: 0.5em;
+	width: 0.3em;
+	height: 0.3em;
+	margin-top: 3rem;
 	margin-bottom: 2em;
 	background: $c-dark;
 	@include border-radius(100%);
@@ -101,8 +105,8 @@ header {
 		content: '';
 		display: flex;
 		position: relative;
-		width: 0.5em;
-		height: 0.5em;
+		width: 0.3em;
+		height: 0.3em;
 		background: $c-dark;
 		@include border-radius(100%);
 		border: 0;
@@ -113,13 +117,16 @@ header {
 		content: '';
 		position: relative;
 		display: flex;
-		width: 0.5em;
-		height: 0.5em;
+		width: 0.3em;
+		height: 0.3em;
 		background: $c-dark;
 		@include border-radius(100%);
 		border: 0;
-		top: -8px;
+		top: -5px;
 		right: -15px;
+	}
+	&:nth-last-child(5) {
+		display: none;
 	}
 }
 .site--title {
@@ -148,10 +155,10 @@ header {
 }
 
 .post--title {
-	font-size: 2.118em;
+	font-size: 2.618em;
 	font-family: $Mitra-bold;
 	font-weight: 300;
-	line-height: 1.618em;
+	line-height: 1.008em;
 
 	& a:hover {
 		color: lighten($c-dark, 10%);
@@ -163,28 +170,52 @@ header {
 	color: lighten($c-dark, 10%);
 }
 .post--more a{
+	position: relative;
+	top: 2rem;
 	font-size: 1.318em;
 	color: $c-red;
 	letter-spacing: 0.03rem;
 	word-spacing: -0.02rem;
-	//font-family: $Nassim-regular;
 
 	&:hover {
 		color: $c-dark;
 	}
 }
+.post--comments {
+	h2 {
+		font-family: $Mitra-bold;
+		font-size: 2.618rem;
+	}
+	margin-top: 5rem;
+	margin-bottom: 3rem !important;
+}
 footer {
 	margin-top: 2em;
-	padding: 1em 0;
+	padding: 3rem 0;
 	background: $c-dark;
-	color: lighten($c-white, 20%);
+	color: darken($c-white, 10%);
 	a {
-		color: lighten($c-white, 20%);
+		color: darken($c-white, 10%);
 		border-bottom: 1px dotted $c-white;
+		&:hover {
+			color: lighten($c-white, 100%);
+		}
+	}
+	h2 {
+		font-family: $Mitra-regular;
+		line-height: $line-height + 1.618;
+		letter-spacing: -.03rem;
+		word-spacing: .05rem;
+		font-size: 1.818rem;
 	}
 	p {
 		font-family: $Mitra-regular, Lato;
 		line-height: 0.800em;
 		font-size: 1.18em;
+		letter-spacing: -.03rem;
+	}
+	.footer--break {
+		margin-top: -1rem;
+		margin-bottom: 1rem;
 	}
 }
