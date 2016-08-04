@@ -22,5 +22,5 @@ $breakpoint-small      : 425px;
 $c-white        : #ffffff;
 $c-blue         : #0076b0;
 $c-dark         : #333;
-$c-red          : rgb(220, 78, 78);
-$color-hover    : #e74c3c;
+$c-red          : #e74c3c;
+$color-hover    : darken(#e74c3c, 10%);

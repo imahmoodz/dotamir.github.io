@@ -128,9 +128,14 @@ header {
 		font-weight: 300;
 }
 .socials {
-	font-size: $line-height;
-	i {
-		margin:  0 5px;
+	font-size: 1.418rem;
+	font-weight: 300;
+	a {
+		color: darken(mix($c-dark, $c-white), 15%);
+		margin-left: 1.5rem;
+		&:hover {
+			color: $c-dark;
+		}
 	}
 }
 .header--break {
@@ -161,10 +166,11 @@ header {
 	font-size: 1.318em;
 	color: $c-red;
 	letter-spacing: 0.03rem;
+	word-spacing: -0.02rem;
 	//font-family: $Nassim-regular;
 
 	&:hover {
-		color: lighten($c-red, 10%);
+		color: $c-dark;
 	}
 }
 footer {
